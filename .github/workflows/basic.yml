@@ -22,3 +22,4 @@ jobs:
       - name: Run a script file from repo
         run: sh ./run.sh
         shell: pwsh
+      - run: echo "Completed running file scripting from repo"
