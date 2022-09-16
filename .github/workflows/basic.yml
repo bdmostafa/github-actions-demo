@@ -16,6 +16,7 @@ jobs:
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Run an inline script
         run: |
+            kjfksdfjkdf
             mkdir new-folder
             ls -l
         shell: bash
