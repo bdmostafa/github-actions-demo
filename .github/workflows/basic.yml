@@ -1,8 +1,12 @@
-name: GitHub Actions Demo
-on: [push]
+name: Selenium Test Workflow
+
+on: push
+
 jobs:
-  Explore-GitHub-Actions:
+  Selenium_Test_Job1:
+    name: Selenium Test Jon
     runs-on: ubuntu-latest
+    
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
