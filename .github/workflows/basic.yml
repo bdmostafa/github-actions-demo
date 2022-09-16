@@ -19,3 +19,5 @@ jobs:
             mkdir new-folder
             ls -l
         shell: bash
+      - name: Run a script file from repo
+        run: sh ./run..sh
