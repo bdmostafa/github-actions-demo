@@ -18,3 +18,4 @@ jobs:
         run: |
             mkdir new-folder
             ls -l
+        shell: bash
