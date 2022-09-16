@@ -15,8 +15,8 @@ jobs:
         uses: actions/checkout@v2.4.2
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Run an inline script
-        qa: jghdfjgdfj
         run: |
+            jghdfjgdfj
             mkdir new-folder
             ls -l
         shell: bash
