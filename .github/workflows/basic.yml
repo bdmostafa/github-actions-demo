@@ -25,6 +25,7 @@ jobs:
         run: sh ./run.sh
         shell: pwsh
       - name: Execute during failure
+        if: failure()
         run: echo "Completed running file scripting from repo although one of the steps seems failed"
       
   Selenium_Test_Job2:
