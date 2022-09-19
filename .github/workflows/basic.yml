@@ -28,7 +28,7 @@ jobs:
         if: ${{ failure() }}
         run: echo "Completed running file scripting from repo although one of the steps seems failed"
       - name: Run Selenium Test
-        if: ${{ env.SELENIUM_DRIVER === 'WebDriverRemote' }}
+        if: ${{ env.SELENIUM_DRIVER == 'WebDriverRemote' }}
         run: echo "Running test in Selenium setup"
       
   Selenium_Test_Job2:
